@@ -17,7 +17,7 @@ export default function Navbar() {
     <header className="navbar">
       <a
         className="brand"
-        href="/yogita-portfolio/#top"
+        href="#top"
         onClick={() => setOpen(false)}
       >
         YM<span>.</span>
@@ -35,7 +35,7 @@ export default function Navbar() {
         {links.map((x) => (
           <a
             key={x}
-            href={`/yogita-portfolio/#${x}`}
+            href={`#${x}`}
             onClick={() => setOpen(false)}
           >
             {x}
