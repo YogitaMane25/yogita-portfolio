@@ -1,0 +1,1 @@
+import BackToTop from '../common/BackToTop';export default function Footer(){return <footer><div><a className="brand" href="#top">YM<span>.</span></a><p>Building reliable digital experiences with Java and modern web technologies.</p></div><BackToTop/><small>© {new Date().getFullYear()} Yogita Mane. All rights reserved.</small></footer>}

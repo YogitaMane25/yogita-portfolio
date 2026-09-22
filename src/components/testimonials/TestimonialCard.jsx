@@ -1,0 +1,1 @@
+export default function TestimonialCard({item}){return <article className="testimonial"><div className="mini-avatar">{item.name.slice(0,1)}</div><p>“{item.text}”</p><strong>{item.name}</strong><span>{item.role}</span></article>}
